@@ -1,0 +1,1 @@
+"""1. aws.amaozon.com 가입2. heroku.com 가입3. heroku cli tool 설치4. 개인 도메인 구입 : naver.com- gabia.com- https://www.hostiong.kr/- https://www.whois.co.kr/app 2개- accounts : 로그인, 로그아웃, 회원가입- photo : 사진업로드follow 기능 : ajax로 follow, unfollow, timeline 구현사진 업로드할 때 -> 필터 - 흑백* 필터 여러종류 (과제)* DM 구현(여유가 되면)남이 쓴 글을 관리자가 아닌 다른 사람이 삭제가 되는데 이 부분 해결"""
