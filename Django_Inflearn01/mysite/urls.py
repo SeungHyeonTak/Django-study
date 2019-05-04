@@ -1,0 +1,1 @@
+from django.urls import pathfrom . import viewsurlpatterns= [    path('',views.post_list, name = "post_list"),    # mysite의 post_list라는 views가 URL에 할당됨    path('hello/',views.index, name = 'hello'),    # 뒤에 name을 붙이는 이유는 뷰의 이름이 같을 수도 있기 때문에 URL에 고유한 이름을 붙이는것이라고 합니다.]
