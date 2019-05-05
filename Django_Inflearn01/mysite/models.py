@@ -5,10 +5,10 @@ import random
 
 class GuessNumbers(models.Model): # Super_class (models) - Sub_class (Model) 상속
     name = models.CharField(max_length = 24)
-    lottos = models.CharField(max_length = 255,default = '[1,2,3,4,5,6]')
+    lottos = models.CharField(max_length = 255, default = '[1,2,3,4,5,6]')
     text = models.CharField(max_length = 255) # text는 한줄 메모장 처럼 간단하게
     num_lotto = models.IntegerField(default=5) # 게임 수
-    update_data = models.DateTimeField()
+    update_data = models.DateTimeField(auto_now=True)
 
     # Lotto 번호를 생성 및 데이터 베이스 저장
     def generate(self):
